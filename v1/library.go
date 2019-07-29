@@ -1,8 +1,8 @@
-// Copyright 2018 Google Inc. All rights reserved.
+// Copyright 2018 Google Inc.
+// Parts copyright 2019 Evgeny Kuznetsov.
+// All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
-
-// AUTO-GENERATED CODE. DO NOT EDIT.
 
 // Package photoslibrary provides access to the Photos Library API.
 //
@@ -10,10 +10,10 @@
 //
 // Usage example:
 //
-//   import "google.golang.org/api/photoslibrary/v1"
+//   import "github.com/nekr0z/gphotoslibrary/v1"
 //   ...
 //   photoslibraryService, err := photoslibrary.New(oauthHttpClient)
-package photoslibrary // import "google.golang.org/api/photoslibrary/v1"
+package gphotoslibrary // import "github.com/nekr0z/gphotoslibrary/v1"
 
 import (
 	"bytes"
