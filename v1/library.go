@@ -1091,6 +1091,9 @@ type MediaItem struct {
 	// null. It is an error if a field in this list has a non-empty value.
 	// This may be used to include null fields in Patch requests.
 	NullFields []string `json:"-"`
+
+	// Filename: filename of the media item.
+	Filename string `json:"filename"`
 }
 
 func (s *MediaItem) MarshalJSON() ([]byte, error) {
