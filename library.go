@@ -4,16 +4,16 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// Package photoslibrary provides access to the Photos Library API.
+// Package gphotoslibrary provides access to the Photos Library API.
 //
 // See https://developers.google.com/photos/
 //
 // Usage example:
 //
-//   import "github.com/nekr0z/gphotoslibrary/v1"
+//   import "github.com/nekr0z/gphotoslibrary"
 //   ...
 //   photoslibraryService, err := photoslibrary.New(oauthHttpClient)
-package gphotoslibrary // import "github.com/nekr0z/gphotoslibrary/v1"
+package gphotoslibrary // import "github.com/nekr0z/gphotoslibrary"
 
 import (
 	"bytes"

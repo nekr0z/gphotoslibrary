@@ -1,1 +1,1 @@
-module github.com/nekr0z/gphotoslibrary/v1/
+module github.com/nekr0z/gphotoslibrary/
