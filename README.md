@@ -13,6 +13,9 @@ import "google.golang.org/api/photoslibrary/v1"
 ```
 that now points to nowhere and fails.
 
+## Development and Contribution
+I try to fix bugs when I see them, but in general the library is being developed in a "scratch your own itch" way, that is, I add missing functionality when I need it. You are welcome to do so, too. Clone, fix, pull request - you know the drill. If you decide to do that, try to adhere to the general way Google API libraries are written: we want to keep this library familiar and in style with the rest of the bunch.
+
 ## Credits
 This software uses (and incorporates at the time of compilation) the following software or parts thereof:
 * [gensupport](https://google.golang.org/api/gensupport) Copyright 2018 Google
