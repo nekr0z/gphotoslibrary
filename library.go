@@ -1885,7 +1885,7 @@ func (c *AlbumsAddEnrichmentCall) doRequest(alt string) (*http.Response, error) 
 		reqHeaders[k] = v
 	}
 	reqHeaders.Set("User-Agent", c.s.userAgent())
-	var body io.Reader = nil
+	var body io.Reader
 	body, err := googleapi.WithoutDataWrapper.JSONReader(c.addenrichmenttoalbumrequest)
 	if err != nil {
 		return nil, err
@@ -2020,7 +2020,7 @@ func (c *AlbumsCreateCall) doRequest(alt string) (*http.Response, error) {
 		reqHeaders[k] = v
 	}
 	reqHeaders.Set("User-Agent", c.s.userAgent())
-	var body io.Reader = nil
+	var body io.Reader
 	body, err := googleapi.WithoutDataWrapper.JSONReader(c.createalbumrequest)
 	if err != nil {
 		return nil, err
@@ -2472,7 +2472,7 @@ func (c *AlbumsShareCall) doRequest(alt string) (*http.Response, error) {
 		reqHeaders[k] = v
 	}
 	reqHeaders.Set("User-Agent", c.s.userAgent())
-	var body io.Reader = nil
+	var body io.Reader
 	body, err := googleapi.WithoutDataWrapper.JSONReader(c.sharealbumrequest)
 	if err != nil {
 		return nil, err
@@ -2619,7 +2619,7 @@ func (c *MediaItemsBatchCreateCall) doRequest(alt string) (*http.Response, error
 		reqHeaders[k] = v
 	}
 	reqHeaders.Set("User-Agent", c.s.userAgent())
-	var body io.Reader = nil
+	var body io.Reader
 	body, err := googleapi.WithoutDataWrapper.JSONReader(c.batchcreatemediaitemsrequest)
 	if err != nil {
 		return nil, err
@@ -2897,7 +2897,7 @@ func (c *MediaItemsSearchCall) doRequest(alt string) (*http.Response, error) {
 		reqHeaders[k] = v
 	}
 	reqHeaders.Set("User-Agent", c.s.userAgent())
-	var body io.Reader = nil
+	var body io.Reader
 	body, err := googleapi.WithoutDataWrapper.JSONReader(c.searchmediaitemsrequest)
 	if err != nil {
 		return nil, err
@@ -3041,7 +3041,7 @@ func (c *SharedAlbumsJoinCall) doRequest(alt string) (*http.Response, error) {
 		reqHeaders[k] = v
 	}
 	reqHeaders.Set("User-Agent", c.s.userAgent())
-	var body io.Reader = nil
+	var body io.Reader
 	body, err := googleapi.WithoutDataWrapper.JSONReader(c.joinsharedalbumrequest)
 	if err != nil {
 		return nil, err
