@@ -16,38 +16,17 @@
 package gphotoslibrary // import "github.com/nekr0z/gphotoslibrary"
 
 import (
-	"bytes"
 	"context"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"net/http"
-	"net/url"
-	"strconv"
-	"strings"
 
 	gensupport "google.golang.org/api/gensupport"
 	googleapi "google.golang.org/api/googleapi"
 )
 
-// Always reference these packages, just in case the auto-generated code
-// below doesn't.
-var _ = bytes.NewBuffer
-var _ = strconv.Itoa
-var _ = fmt.Sprintf
-var _ = json.NewDecoder
-var _ = io.Copy
-var _ = url.Parse
-var _ = gensupport.MarshalJSON
-var _ = googleapi.Version
-var _ = errors.New
-var _ = strings.Replace
-var _ = context.Canceled
-
-const apiId = "photoslibrary:v1"
-const apiName = "photoslibrary"
-const apiVersion = "v1"
 const basePath = "https://photoslibrary.googleapis.com/"
 
 // OAuth2 scopes used by this API.
