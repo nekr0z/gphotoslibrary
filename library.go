@@ -10,7 +10,7 @@
 //
 // Usage example:
 //
-//   import "github.com/nekr0z/gphotoslibrary"
+//   import photoslibrary "github.com/nekr0z/gphotoslibrary"
 //   ...
 //   photoslibraryService, err := photoslibrary.New(oauthHttpClient)
 package gphotoslibrary // import "github.com/nekr0z/gphotoslibrary"
