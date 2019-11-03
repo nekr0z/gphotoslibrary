@@ -185,7 +185,7 @@ type Album struct {
 	// of 2048 px and height of 1024 px.
 	CoverPhotoBaseUrl string `json:"coverPhotoBaseUrl,omitempty"`
 
-	// Id: [Ouput only] Identifier for the album. This is a persistent
+	// Id: [Output only] Identifier for the album. This is a persistent
 	// identifier that
 	// can be used between sessions to identify this album.
 	Id string `json:"id,omitempty"`
@@ -566,7 +566,7 @@ func (s *CreateAlbumRequest) MarshalJSON() ([]byte, error) {
 // Date: Represents a whole calendar date. The day may be 0 to represent
 // a year and month where the day is not significant, e.g. a whole
 // calendar month. The month may be 0 to represent a a day and a year
-// where the month is not signficant, e.g. when you want to specify the
+// where the month is not significant, e.g. when you want to specify the
 // same day in every month of a year or a specific year. The year may be
 // 0 to represent a month and day independent of year, e.g. anniversary
 // date.
@@ -1371,7 +1371,7 @@ type SearchMediaItemsRequest struct {
 	// specified album. Cannot be set in conjunction with any filters.
 	AlbumId string `json:"albumId,omitempty"`
 
-	// Filters: Filters to apply to the request. Cannot be set in conjuction
+	// Filters: Filters to apply to the request. Cannot be set in conjunction
 	// with an
 	// albumId.
 	Filters *Filters `json:"filters,omitempty"`
