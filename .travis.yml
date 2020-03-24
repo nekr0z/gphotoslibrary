@@ -4,7 +4,7 @@ env:
   - GO111MODULE=on
 
 install:
-  - go install github.com/golangci/golangci-lint/cmd/golangci-lint
+  - bash <(curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.24.0)
 
 script: 
   - golangci-lint run
