@@ -21,10 +21,6 @@ jobs:
             ${{ runner.os }}-build-${{ hashFiles('**/go.mod') }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - name: test
-        run: |
-          echo $GOCACHE
-          ls $GOPATH/pkg/mod
       - name: build
         run: |
           go build
