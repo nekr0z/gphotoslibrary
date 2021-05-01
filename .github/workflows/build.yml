@@ -13,8 +13,8 @@ jobs:
         uses: actions/cache@v2
         with:
           path: |
-            $GOCACHE
-            $GOPATH/pkg/mod
+            ~/.cache/go-build
+            ~/go/pkg/mod
           key: |
             ${{ runner.os }}-build-${{ hashFiles('**/go.mod') }}-${{ hashFiles('**/go.sum') }}
           restore-keys: |
