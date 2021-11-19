@@ -10,10 +10,10 @@
 //
 // Usage example:
 //
-//   import photoslibrary "github.com/nekr0z/gphotoslibrary"
+//   import photoslibrary "evgenykuznetsov.org/go/gphotoslibrary"
 //   ...
 //   photoslibraryService, err := photoslibrary.New(oauthHttpClient)
-package gphotoslibrary // import "github.com/nekr0z/gphotoslibrary"
+package gphotoslibrary // import "evgenykuznetsov.org/go/gphotoslibrary"
 
 import (
 	"context"

@@ -1,4 +1,4 @@
-module github.com/nekr0z/gphotoslibrary
+module evgenykuznetsov.org/go/gphotoslibrary
 
 go 1.14
 
